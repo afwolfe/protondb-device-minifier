@@ -1,0 +1,21 @@
+{
+  "name": "protondb-device-minifier",
+  "version": "1.0.0",
+  "description": "Remove unnecessary information from ProtonDB device",
+  "main": "index.js",
+  "repository": "git@github.com:afwolfe/protondb-device-minifier.git",
+  "author": "afwolfe <3718652+afwolfe@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node esbuild.config.mjs"
+  },
+  "devDependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "esbuild": "^0.23.0",
+    "esbuild-sass-plugin": "^3.3.1",
+    "esbuild-serve": "^1.0.1",
+    "node-sass": "^9.0.0"
+  }
+}
